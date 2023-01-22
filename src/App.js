@@ -1,12 +1,10 @@
-// import Navbar from "./components/Navbar";
-import { SpeedDialDemo } from "./components/new";
-// import Test from "./components/Test";
+import Navbar from "./components/Navbar";
 
 
 function App() {
   return (
     <div className="overflow-hidden">
-      <SpeedDialDemo/>
+      <Navbar/>
     </div>
   );
 }
