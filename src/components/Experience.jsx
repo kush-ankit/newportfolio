@@ -1,17 +1,27 @@
 import React from 'react'
+import 'primeicons/primeicons.css';
+import 'primereact/resources/themes/lara-light-indigo/theme.css';
+import 'primereact/resources/primereact.css';
+import 'primeflex/primeflex.css';
+import PolarAreaChartDemo from './Test';
+
 
 function Experience() {
     return (
-        <div name="Experience" className='h-fit w-full flex flex-col justify-center items-center'>
-            <div className='h-2/3 max-w-screen-lg '>
-                <h1 className='text-5xl underline p-5'>Experience</h1>
-                <div className='grid grid-rows-3 grid-flow-col md:grid md:grid-rows-2 md:grid-flow-col'>
-                    <img className=' w-full md:w-42 md:p-20 p-5 hover:animate-ping duration-500' src="https://cdn.cdnlogo.com/logos/c/27/c.svg" alt="CSharp" />
-                    <img className=' w-full md:w-42 md:p-20 p-5 hover:animate-bounce duration-500' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" alt="Javascript" />
-                    <img className=' w-full md:w-42 md:p-20 p-5 hover:rotate-6 duration-500' src="https://nodejs.org/static/images/logo.svg" alt="Node" />
-                    <img className=' w-full md:w-42 md:p-20 p-5 hover:animate-spin duration-100' src="https://www.obg.eu.com/img/technologies/react.png" alt="React" />
-                    <img className=' w-full md:w-42 md:p-20 p-5 hover:rotate-6 duration-500' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" alt="TailwindCSS" />
-                    <img className=' w-full md:w-42 md:p-20 p-5 hover:animate-pulse duration-500' src="https://img.icons8.com/color/480/c-programming.png" alt="c" />
+        <div name="Experience" className='h-screen w-full bg-white'>
+            <div className='w-full h-full flex md:flex-row flex-col'>
+                <div className='w-full h-full flex flex-col md:flex-row justify-evenly items-center'>
+                    <h1 className='border-b-2 border-gray-500 w-fit text-3xl font-serif'>Skills</h1>
+                    <div className='w-full grid grid-cols-3 gap-4 place-items-stretch h-56'>
+                        <div className='w-32 '><img src="https://i.ibb.co/54pdt1c/695px-C-Programming-Language-svg.png" alt="C Language" /></div>
+                        <div className='w-32 '><img src="https://i.ibb.co/Pt8dBhj/c-sharp-programming-language-icon.webp" alt="Csharp" /></div>
+                        <div className='w-32 '><img src="https://i.ibb.co/mSvDJWW/React-icon-svg.png" alt="React" /></div>
+                        <div className='w-32 '><img src="https://i.ibb.co/8dr5Wqf/nodejs-logo-FBE122-E377-seeklogo-com.png" alt="Nodejs" /></div>
+                        <div className='w-32 '><img src="https://i.ibb.co/GJj4vn8/1-6ooq0-R60ba3-UT5c-QVem-A-removebg-preview.png" alt="TailwindCSS" /></div>
+                    </div>
+                </div>
+                <div className='w-full h-full flex justify-center items-center'>
+                    <PolarAreaChartDemo />
                 </div>
             </div>
         </div>

@@ -1,25 +1,64 @@
 import React from 'react'
+import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram } from 'react-icons/ai';
+
 
 function Contact() {
   return (
-    <div name="Contact" className='w-full h-fit'>
-        <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
-            <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-black md:border-white'>Contact</p>
-                <p className='pt-5'>Submit the form below to get in touch with me</p>
-            </div>
-
-            <div>
-                <form action="https://getform.io/f/cf06f0ea-5296-4e01-b7df-d1a47ea6edd4" method='POST' className='flex flex-col w-full md:w-1/2 '>
-                <input type="text" name='Name' placeholder='Enter your name' className='p-2 bg-transparent border-2 rounded-md md:text-white focus:outline-none md:placeholder-white placeholder-black'/>
-                <input type="email" name='Email' placeholder='Enter your email' className='my-4 p-2 bg-transparent border-2 rounded-md md:text-white focus:outline-none md:placeholder-white placeholder-black'/>
-                <textarea name="Massage" id="" cols="30" rows="10" placeholder='Description here ...' className='p-2 bg-transparent border-2 rounded-md md:text-white focus:outline-none md:placeholder-white placeholder-black'></textarea>
-                <button className='md:text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>Let's talk</button>
+    <div name="Contact" className='w-full h-screen'>
+      <div className='w-full h-full flex justify-center items-center'>
+        <div className='w-[70%] h-[70%] bg-gradient-to-r from-[#6D4C41] via-[#8F6251] to-[#6D4C41] rounded-lg shadow-2xl'>
+          <div className='h-full w-full flex justify-center '>
+            <div className='h-full w-full p-16 text-[#d8d8d8]'>
+              <h1 className='text-3xl font-bold '>Just say Hello !</h1>
+              <p className='font-semibold'>Lets us know more about you !</p>
+              <br />
+              <div>
+                <form action="https://getform.io/f/cf06f0ea-5296-4e01-b7df-d1a47ea6edd4" method='POST' >
+                  <div className='flex flex-col gap-3'>
+                    <div className='gap-3 flex'>
+                      <input type="text" name='Firstname' placeholder='Firstname' className='p-2 rounded-2xl opacity-30 text-black' />
+                      <input type="text" name='Lastname' placeholder='Lastname' className='p-2 rounded-2xl opacity-30 text-black' />
+                    </div>
+                    <div className='flex gap-3'>
+                      <input type="text" name='EMail' placeholder='Mail' className='p-2 rounded-2xl opacity-30 text-black' />
+                      <input type="text" name='Phone' placeholder='Phone' className='p-2 rounded-2xl opacity-30 text-black' />
+                    </div>
+                    <div>
+                      <textarea name="Description" id="1" cols="52" rows="5" className='p-2 rounded-2xl opacity-30 text-black ' placeholder='Say Somthing ...' ></textarea>
+                    </div>
+                    <div >
+                      <button className='border-2 border-gray-500 px-5 py-2 bg-gradient-to-r rounded-lg'>Submit</button>
+                    </div>
+                  </div>
                 </form>
+              </div>
             </div>
+            <div className='h-full w-full p-16'>
+              <div className='text-[#d8d8d8] h-full w-full'>
+                <h1 className='text-3xl font-bold'>Contact <br /> Information</h1>
+                <br />
+                <div>
+                  <p>Siswa Dixit Salempur <br /> Deoria Utter Pradesh <br /> 274509 </p>
+                  <p>Call us: +919696117951 </p>
+                  <p>Email: er.ankitkush@gmail.com</p>
+                </div>
+                <br />
+                <h1 className='text-3xl font-bold'>Follow us</h1>
+                <br />
+                <div className='flex text-xl gap-10'>
+                  <div><AiFillGithub /></div>
+                  <div><AiFillLinkedin /></div>
+                  <div><AiOutlineInstagram /></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
   )
 }
 
 export default Contact
+
+//https://getform.io/f/cf06f0ea-5296-4e01-b7df-d1a47ea6edd4
