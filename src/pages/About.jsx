@@ -4,7 +4,7 @@ import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 function About() {
     return (
-        <div name="About" className='w-full h-screen bg-[#ccc] p-5 '>
+        <div name="About" className='w-full h-full p-5 '>
             <div className='h-full w-full flex flex-col justify-center gap-10 '>
                 <div className='w-full flex flex-col justify-center items-center'>
                     <h1 className='font-bold text-xl border-b-2 border-spacing-4 border-gray-500 pb-5'>A little bit about me</h1>

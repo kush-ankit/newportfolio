@@ -6,7 +6,7 @@ function Load() {
   return (
     <div className='w-full h-screen flex justify-center items-center'>
         <div>
-        <i className="pi pi-spin pi-spinner" style={{'fontSize': '2em'}}></i>
+        <i className="pi pi-spin pi-spinner" style={{'fontSize': '5em'}}></i>
         </div>
     </div>
   )

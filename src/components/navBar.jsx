@@ -5,20 +5,20 @@ import { AiOutlineHome } from 'react-icons/ai';
 import { GiSkills } from 'react-icons/gi';
 import { MdOutlineContactSupport } from 'react-icons/md';
 import { BiDetail } from 'react-icons/bi';
-import About from './About'
-import Home from './Home';
-import Contact from './Contact';
-import Project from './Project';
-import Experience from './Experience';
+import About from '../pages/About'
+import Home from '../pages/Home';
+import Contact from '../pages/Contact';
+import Project from '../pages/Project';
+import Experience from '../pages/Experience';
 
 
 
 
 function Navbar() {
     return (
-        <div >   
+        <div className='h-screen w-full'>   
         <Router>
-            <div className=''>
+            <div className='h-full w-full'>
                 <Routes>
                     <Route exact path='/' element={< Home />}></Route>
                     <Route exact path='/projects' element={< Project />}></Route>
@@ -27,8 +27,8 @@ function Navbar() {
                     <Route exact path='/about' element={< About />}></Route>
                     
                 </Routes>
-                <div className='w-full flex justify-center px-5 shadow-xl md:hidden '>
-                    <ul className=" w-full flex justify-evenly  items-center bottom-0 rounded-xl absolute ">
+                <div className='w-full flex justify-center px-5 absolute bottom-0 shadow-xl md:hidden '>
+                    <ul className=" w-full flex justify-evenly  items-center rounded-xl  ">
                         <li className='hover:bg-[#74625A] hover:text-white py-3 px-4 my-3 rounded-full'>
                             <Link to="/"><AiOutlineHome size={30} />  </Link>
                         </li>

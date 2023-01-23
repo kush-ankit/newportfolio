@@ -5,7 +5,7 @@ import 'primeicons/primeicons.css';
 function Home() {
    
     return (
-        <div name="Home" className='h-screen w-full p-4 overflow-hidden bg-white'>
+        <div name="Home" className='h-full w-full p-4 overflow-hidden bg-white'>
             <div className='h-full rounded-lg p-5'>
                 <div className='w-fit px-2 rounded-lg md:hidden flex gap-10' >
                     <div><a href='https://instagram.com/kush_ankit_?igshid=ZDdkNTZiNTM=' className='pi pi-instagram text-3xl '> </a></div>
