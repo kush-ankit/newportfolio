@@ -37,7 +37,7 @@ function Project() {
       <div className="w-full h-full  m-auto flex flex-col md:flex-row gap-4 ">
         {
           Data.map(({ id, photo, naam, about, link }) => (
-            <Card img={photo} name={naam} about={about} link={link} />
+            <Card key={id} img={photo} name={naam} about={about} link={link} />
           ))
         }
 

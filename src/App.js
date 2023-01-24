@@ -13,7 +13,7 @@ const App = () => {
 
   // [] means like componentDidMount
 
-  return spinner ? <div> <Load/> </div>:<div className="overflow-hidden"><Navbar /></div>;
+  return spinner ? <div> <Load size={5}/> </div>:<div className="overflow-hidden"><Navbar /></div>;
 };
 
 export default App;
