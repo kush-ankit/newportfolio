@@ -20,15 +20,17 @@ function Navbar() {
         <div className='h-screen w-full'>
             <Router>
                 <div className='h-full w-full'>
-                    <Suspense fallback={<div><Load size={2}/></div>}>
-                        <Routes>
-                            <Route exact path='/' element={< Home />}></Route>
-                            <Route exact path='/projects' element={< Project />}></Route>
-                            <Route exact path='/skills' element={< Experience />}></Route>
-                            <Route exact path='/contact' element={< Contact />}></Route>
-                            <Route exact path='/about' element={< About />}></Route>
-                        </Routes>
-                    </Suspense>
+                    <div className=' h-full w-full'>
+                        <Suspense fallback={<div><Load size={2} /></div>}>
+                            <Routes>
+                                <Route exact path='/' element={< Home />}></Route>
+                                <Route exact path='/projects' element={< Project />}></Route>
+                                <Route exact path='/skills' element={< Experience />}></Route>
+                                <Route exact path='/contact' element={< Contact />}></Route>
+                                <Route exact path='/about' element={< About />}></Route>
+                            </Routes>
+                        </Suspense>
+                    </div>
                     <div className='w-full flex justify-center px-5 fixed bottom-0 shadow-xl md:hidden '>
                         <ul className=" w-full flex justify-evenly  items-center rounded-xl  ">
                             <li className='hover:bg-[#74625A] hover:text-white py-3 px-4 my-3 rounded-full'>

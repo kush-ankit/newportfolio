@@ -3,8 +3,8 @@ import React from 'react'
 function Card(props) {
 
   return (
-    <div className='md:h-fit h-[50%] w-full bg-white rounded-2xl p-3 '>
-        <div className='h-[50%] w-full'>
+    <div className='m-auto h-[400px] w-[330px] bg-gradient-to-b from-[#242B2E] rounded-2xl p-3 shadow-md shadow-[#758283]'>
+        <div className='h-[50%] w-full '>
             <div className='h-full w-full'>
                 <img src={props.img} alt="p1" className='rounded-2xl' />
             </div>

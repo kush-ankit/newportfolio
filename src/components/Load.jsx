@@ -6,7 +6,7 @@ function Load(props) {
   return (
     <div className='w-full h-screen flex justify-center items-center'>
         <div>
-        <i className="pi pi-spin pi-spinner" style={{'fontSize': `${props.size}rem`}}></i>
+        <i className="pi pi-spin pi-spinner text-blue-500" style={{'fontSize': `${props.size}rem`}}></i>
         </div>
     </div>
   )
