@@ -4,7 +4,6 @@ import 'primereact/resources/themes/lara-light-indigo/theme.css';
 import 'primereact/resources/primereact.css';
 import 'primeflex/primeflex.css';
 import Skillcard from '../components/Skillcard'
-import PolarAreaChartDemo from '../components/Test';
 
 
 function Experience() {
@@ -44,9 +43,7 @@ function Experience() {
             <div className='w-full h-full flex flex-col md:flex-row items-center gap-5'>
                 <div className='w-full md:h-full h-fit text-3xl flex flex-col justify-evenly items-center font-semibold '>
                     <h1 className='w-fit border-b-2 border-slate-500 p-5 '>Skills</h1>
-                    <div className='md:flex hidden'>
-                        <PolarAreaChartDemo />
-                    </div>
+                    
                 </div>
                 <div className='w-full h-full overflow-y-scroll'>
                     <div className='flex flex-wrap gap-10'>

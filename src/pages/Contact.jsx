@@ -24,10 +24,17 @@ function Contact() {
                       <input type="text" name='Phone' placeholder='Phone' className='p-2 w-full rounded-2xl opacity-30 text-black' />
                     </div>
                     <div className='w-full'>
-                      <textarea name="Description"  className='p-4 rounded-2xl opacity-30 text-black w-full ' placeholder='Say Somthing ...' ></textarea>
+                      <textarea name="Description" className='p-4 rounded-2xl opacity-30 text-black w-full ' placeholder='Say Somthing ...' ></textarea>
                     </div>
                     <div className='flex justify-center md:justify-start'>
                       <button className='border-2 border-gray-500 px-5 py-2 bg-gradient-to-r rounded-lg'>Submit</button>
+                    </div>
+                    <br />
+                    <br />
+                    <div className='flex justify-center text-4xl gap-10 md:hidden'>
+                      <a href='https://github.com/kush-ankit'><AiFillGithub /></a>
+                      <a href='https://www.linkedin.com/in/ankit-kushwaha-135817227'><AiFillLinkedin /></a>
+                      <a href='https://instagram.com/kush_ankit_?igshid=ZDdkNTZiNTM='><AiOutlineInstagram /></a>
                     </div>
                   </div>
                 </form>
@@ -45,10 +52,10 @@ function Contact() {
                 <br />
                 <h1 className='text-3xl font-bold'>Follow us</h1>
                 <br />
-                <div className='flex text-xl gap-10'>
-                  <div><AiFillGithub /></div>
-                  <div><AiFillLinkedin /></div>
-                  <div><AiOutlineInstagram /></div>
+                <div className='flex text-4xl gap-10'>
+                  <a href='https://github.com/kush-ankit'><AiFillGithub /></a>
+                  <a href='https://www.linkedin.com/in/ankit-kushwaha-135817227'><AiFillLinkedin /></a>
+                  <a href='https://instagram.com/kush_ankit_?igshid=ZDdkNTZiNTM='><AiOutlineInstagram /></a>
                 </div>
               </div>
             </div>
