@@ -33,19 +33,19 @@ function Navbar() {
                     </div>
                     <div className='w-full flex justify-center px-5 fixed bottom-0 shadow-xl md:hidden '>
                         <ul className=" w-full flex justify-evenly  items-center rounded-xl  ">
-                            <li className='hover:bg-[#74625A] hover:text-white py-3 px-4 my-3 rounded-full'>
+                            <li className='hover:bg-[#8F6251] hover:text-white py-3 px-4 my-3 rounded-full'>
                                 <Link to="/"><AiOutlineHome size={30} />  </Link>
                             </li>
-                            <li className='hover:bg-[#74625A] hover:text-white py-3 px-4 my-3 rounded-full'>
+                            <li className='hover:bg-[#8F6251] hover:text-white py-3 px-4 my-3 rounded-full'>
                                 <Link to="/about"><BiDetail size={30} /></Link>
                             </li>
-                            <li className='hover:bg-[#74625A] hover:text-white py-3 px-4 my-3 rounded-full'>
+                            <li className='hover:bg-[#8F6251] hover:text-white py-3 px-4 my-3 rounded-full'>
                                 <Link to="/projects"><FaProjectDiagram size={30} /></Link>
                             </li>
-                            <li className='hover:bg-[#74625A] hover:text-white py-3 px-4 my-3 rounded-full'>
+                            <li className='hover:bg-[#8F6251] hover:text-white py-3 px-4 my-3 rounded-full'>
                                 <Link to="/skills"><GiSkills size={30} /></Link>
                             </li>
-                            <li className='hover:bg-[#74625A] hover:text-white py-3 px-4 my-3 rounded-full'>
+                            <li className='hover:bg-[#8F6251] hover:text-white py-3 px-4 my-3 rounded-full'>
                                 <Link to="/contact"><MdOutlineContactSupport size={30} /></Link>
                             </li>
                         </ul>

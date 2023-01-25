@@ -41,10 +41,10 @@ function Experience() {
             <div className='w-full h-20'>
 
             </div>
-            <div className='w-full h-full flex items-center '>
-                <div className='w-full h-full text-3xl flex flex-col justify-evenly items-center  font-semibold'>
+            <div className='w-full h-full flex flex-col md:flex-row items-center gap-5'>
+                <div className='w-full md:h-full h-fit text-3xl flex flex-col justify-evenly items-center font-semibold '>
                     <h1 className='w-fit border-b-2 border-slate-500 p-5 '>Skills</h1>
-                    <div>
+                    <div className='md:flex hidden'>
                         <PolarAreaChartDemo />
                     </div>
                 </div>
@@ -56,6 +56,7 @@ function Experience() {
                             ))
                         }
                     </div>
+                    <div className='w-full h-28'></div>
                 </div>
             </div>
         </div>
