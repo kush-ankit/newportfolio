@@ -36,16 +36,13 @@ function Experience() {
         },
     ]
     return (
-        <div name='Skills' className='w-full h-full '>
-            <div className='w-full h-20'>
-
-            </div>
-            <div className='w-full h-full flex flex-col md:flex-row items-center gap-5'>
+        <div name='Skills' className='w-full h-full'>
+            <div className='w-full h-20'></div>
+            <div className='w-full h-full flex flex-col md:flex-row gap-5'>
                 <div className='w-full md:h-full h-fit text-3xl flex flex-col justify-evenly items-center font-semibold '>
                     <h1 className='w-fit border-b-2 border-slate-500 p-5 '>Skills</h1>
-                    
                 </div>
-                <div className='w-full h-full overflow-y-scroll'>
+                <div className='w-full h-full'>
                     <div className='flex flex-wrap gap-10'>
                         {
                             Data.map(({ id, photo, naam }) => (
