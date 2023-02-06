@@ -36,7 +36,7 @@ function Navbar() {
                     <li className='hover:bg-[#F5F5F5] px-3 py-1 rounded-md hover:shadow-md'><Link to="/">Home</Link></li>
                     <li className='hover:bg-[#F5F5F5] px-3 py-1 rounded-md hover:shadow-md'><Link to="/about">About</Link></li>
                     <li className='hover:bg-[#F5F5F5] px-3 py-1 rounded-md hover:shadow-md'><Link to="/projects">Projects</Link></li>
-                    <li className='hover:bg-[#F5F5F5] px-3 py-1 rounded-md hover:shadow-md'><Link to="/skills">Skills</Link></li>
+                    <li className='hover:bg-[#F5F5F5] px-3 py-1 rounded-md hover:shadow-md'><Link to="/skills">Certificates</Link></li>
                     <li className='hover:bg-[#F5F5F5] px-3 py-1 rounded-md hover:shadow-md'><Link to="/contact">Contact us</Link></li>
                 </ul>
             </div>

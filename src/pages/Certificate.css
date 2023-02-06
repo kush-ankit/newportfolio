@@ -1,0 +1,21 @@
+.kodfun-galeri {
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+    transition-delay: 2s;
+}
+
+.kodfun-galeri>div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .85 cubic-bezier (.25, .4, .45, 1.4);
+    transition-duration: 1s;
+    overflow: hidden;
+}
+
+.kodfun-galeri>div:hover {
+    flex: 4;
+}

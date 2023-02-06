@@ -8,7 +8,7 @@ function Contact() {
       <div className='w-full h-full flex justify-center items-center'>
         <div className='md:w-[70%] md:h-[70%] h-[80%] w-[90%] bg-gradient-to-r from-[#6D4C41] via-[#8F6251] to-[#6D4C41] rounded-lg shadow-2xl'>
           <div className='h-full w-full flex justify-center '>
-            <div className='h-full w-full md:p-32 p-5 text-[#d8d8d8]'>
+            <div className='h-full w-full p-10 pb-0 text-[#d8d8d8]'>
               <h1 className='text-3xl font-bold '>Just say Hello !</h1>
               <p className='font-semibold'>Lets us know more about you !</p>
               <br />
@@ -31,7 +31,6 @@ function Contact() {
                     </div>
                     <br />
                     <br />
-
                   </div>
                 </form>
               </div>
