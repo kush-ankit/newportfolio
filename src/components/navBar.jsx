@@ -13,7 +13,7 @@ function Navbar() {
     return (
         <div className='h-full w-full'>
             <div className='w-full flex justify-center fixed z-50 bottom-0 md:hidden'>
-                <ul className=" w-full flex justify-evenly items-center bg-zinc-600 p-2">
+                <ul className=" w-full flex justify-evenly items-center bg-zinc-800 p-2">
                     <li className='hex'>
                         <Link to="/"><AiOutlineHome size={30} />  </Link>
                     </li>

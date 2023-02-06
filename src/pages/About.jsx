@@ -18,7 +18,7 @@ function About() {
                     <a href="https://www.linkedin.com/in/ankit-kushwaha-135817227" > <div className='flex flex-row justify-center items-center gap-3 font-bold text-xl' > More about me <BsFillArrowRightCircleFill /></div></a>
                 </div>
                 <div className='flex justify-center'>
-                    <a href='/resume.pdf' className='font-bold border-2 border-black bg-gradient-to-b from-black to-gray-900 text-white px-5 py-2' target="_blank" rel="noopener noreferrer">DOWNLOAD CV</a>
+                    <a href='https://i.ibb.co/Gn29Sfh/resume.jpg' className='font-bold border-2 border-black bg-gradient-to-b from-black to-gray-900 text-white px-5 py-2' target="_blank" rel="noopener noreferrer">DOWNLOAD CV</a>
                 </div>
             </div>
 

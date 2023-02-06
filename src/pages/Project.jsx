@@ -7,64 +7,36 @@ function Project() {
     {
       id: 1,
       photo: 'https://i.ibb.co/2KLtFJm/Screenshot-20221230-234827.png',
-      naam: 'Portfolio Website',
+      naam: 'Portfolio',
       about: 'It includes all my skills, talent, projects and contact details',
       link: '#'
     },
     {
       id: 2,
       photo: 'https://i.ibb.co/M1Gvdw5/Screenshot-20221217-131511.png',
-      naam: 'Portfolio Website',
-      about: 'It includes all my skills, talent, projects and contact details',
+      naam: 'Quiz Portal',
+      about: 'It makes your school/collage questions and answer more intresting',
       link: '#'
     },
     {
       id: 3,
       photo: 'https://i.ibb.co/xDhwqC0/Screenshot-2.png',
-      naam: 'Portfolio Website',
-      about: 'It includes all my skills, talent, projects and contact details',
+      naam: 'Mobile App',
+      about: 'Making an app that helps you to improve your focus',
       link: '#'
     },
     {
       id: 4,
-      photo: 'https://i.ibb.co/2KLtFJm/Screenshot-20221230-234827.png',
-      naam: 'Portfolio Website',
-      about: 'It includes all my skills, talent, projects and contact details',
+      photo: 'https://i.ibb.co/cv3k3Yj/Screenshot-20230207-005717.png',
+      naam: 'Road Management Portal',
+      about: 'It is designed to detect and inform about the condition of the road in a region',
       link: '#'
     },
     {
       id: 5,
-      photo: 'https://i.ibb.co/M1Gvdw5/Screenshot-20221217-131511.png',
-      naam: 'Portfolio Website',
-      about: 'It includes all my skills, talent, projects and contact details',
-      link: '#'
-    },
-    {
-      id: 6,
-      photo: 'https://i.ibb.co/xDhwqC0/Screenshot-2.png',
-      naam: 'Portfolio Website',
-      about: 'It includes all my skills, talent, projects and contact details',
-      link: '#'
-    },
-    {
-      id: 7,
-      photo: 'https://i.ibb.co/2KLtFJm/Screenshot-20221230-234827.png',
-      naam: 'Portfolio Website',
-      about: 'It includes all my skills, talent, projects and contact details',
-      link: '#'
-    },
-    {
-      id: 8,
-      photo: 'https://i.ibb.co/M1Gvdw5/Screenshot-20221217-131511.png',
-      naam: 'Portfolio Website',
-      about: 'It includes all my skills, talent, projects and contact details',
-      link: '#'
-    },
-    {
-      id: 9,
-      photo: 'https://i.ibb.co/xDhwqC0/Screenshot-2.png',
-      naam: 'Portfolio Website',
-      about: 'It includes all my skills, talent, projects and contact details',
+      photo: 'https://i.ibb.co/xm8rBxk/Screenshot-20230207-005248.png',
+      naam: 'Portfolio v2.0',
+      about: 'Improving the frontend skills and performance optimization for better experience',
       link: '#'
     }
   ]
@@ -82,6 +54,7 @@ function Project() {
           ))
         }
       </div>
+      <div className='h-20'></div>
     </div>
   )
 }
