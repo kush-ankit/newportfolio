@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import { BrowserRouter } from 'react-router-dom';
 import Load from './components/Load';
-// import Navbar from './components/Navbar';
-// import Layout from './Layout';
 import Main from './main';
 
 const App = () => {

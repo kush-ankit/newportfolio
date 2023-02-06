@@ -1,0 +1,10 @@
+.hex {
+    border-radius: 30%;
+    padding: 10px;
+    color: azure;
+    transition: background-color 2s;
+}
+.hex:hover {
+    background-color: #7fffd4;
+}
+

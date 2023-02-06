@@ -31,11 +31,7 @@ function Contact() {
                     </div>
                     <br />
                     <br />
-                    <div className='flex justify-center text-4xl gap-10 md:hidden'>
-                      <a className='text-black scale-125' href='https://github.com/kush-ankit'><AiFillGithub /></a>
-                      <a className='text-blue-600 scale-125' href='https://www.linkedin.com/in/ankit-kushwaha-135817227'><AiFillLinkedin /></a>
-                      <a className='rounded-lg' style={{background:"radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)"}} href='https://instagram.com/kush_ankit_?igshid=ZDdkNTZiNTM='><AiOutlineInstagram /></a>
-                    </div>
+
                   </div>
                 </form>
               </div>
@@ -45,7 +41,7 @@ function Contact() {
                 <h1 className='text-3xl font-bold'>Contact <br /> Information</h1>
                 <br />
                 <div>
-                  <p>Siswa Dixit Salempur <br /> Deoria Utter Pradesh <br /> 274509 </p>
+                  <p>Siswa Dixit, Salempur <br /> Deoria, Utter Pradesh <br /> 274509 </p>
                   <p>Call us: +919696117951 </p>
                   <p>Email: er.ankitkush@gmail.com</p>
                 </div>
@@ -53,9 +49,9 @@ function Contact() {
                 <h1 className='text-3xl font-bold'>Follow us</h1>
                 <br />
                 <div className='flex text-4xl gap-10'>
-                  <a className='hover:text-black' href='https://github.com/kush-ankit'><AiFillGithub /></a>
-                  <a className='hover:text-blue-700' href='https://www.linkedin.com/in/ankit-kushwaha-135817227'><AiFillLinkedin /></a>
-                  <a style={{background:"radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)"}} className='hover:text-[#f20089]' href='https://instagram.com/kush_ankit_?igshid=ZDdkNTZiNTM='><AiOutlineInstagram /></a>
+                  <a className='text-black' href='https://github.com/kush-ankit'><AiFillGithub /></a>
+                  <a className='text-blue-700' href='https://www.linkedin.com/in/ankit-kushwaha-135817227'><AiFillLinkedin /></a>
+                  <a className='rounded-lg' style={{ background: "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)" }} href='https://instagram.com/kush_ankit_?igshid=ZDdkNTZiNTM='><AiOutlineInstagram /></a>
                 </div>
               </div>
             </div>

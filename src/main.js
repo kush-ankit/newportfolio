@@ -3,8 +3,8 @@ import { Route, Routes } from 'react-router-dom'
 import Load from './components/Load'
 import Layout from './Layout'
 import About from './pages/About'
+import Certificate from './pages/Certificates'
 import Contact from './pages/Contact'
-import Experience from './pages/Experience'
 import Home from './pages/Home'
 import Project from './pages/Project'
 
@@ -18,7 +18,7 @@ function Main() {
                             <Route path='/' element={<Layout />}>
                                 <Route index element={< Home />}></Route>
                                 <Route path='/projects' element={< Project />}></Route>
-                                <Route path='/skills' element={< Experience />}></Route>
+                                <Route path='/skills' element={< Certificate />}></Route>
                                 <Route path='/contact' element={< Contact />}></Route>
                                 <Route path='/about' element={< About />}></Route>
                             </Route>
