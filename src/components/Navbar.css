@@ -2,9 +2,17 @@
     border-radius: 30%;
     padding: 10px;
     color: azure;
-    transition: background-color 2s;
+    transition: background-color 0.5s;
 }
 .hex:hover {
     background-color: #7fffd4;
 }
 
+.huddel {
+    color: azure;
+    transition: background-color 0.5s;
+}
+
+.huddel:hover {
+    background-color: #7fffd4;
+}

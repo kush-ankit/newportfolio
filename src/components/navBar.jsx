@@ -31,13 +31,13 @@ function Navbar() {
                     </li>
                 </ul>
             </div>
-            <div className='md:flex hidden w-full p-6 shadow-lg' style={{ borderRadius: "0% 0% 0% 100%" }}>
-                <ul className='flex justify-end gap-3 w-full'>
-                    <li className='hover:bg-[#F5F5F5] px-3 py-1 rounded-md hover:shadow-md'><Link to="/">Home</Link></li>
-                    <li className='hover:bg-[#F5F5F5] px-3 py-1 rounded-md hover:shadow-md'><Link to="/about">About</Link></li>
-                    <li className='hover:bg-[#F5F5F5] px-3 py-1 rounded-md hover:shadow-md'><Link to="/projects">Projects</Link></li>
-                    <li className='hover:bg-[#F5F5F5] px-3 py-1 rounded-md hover:shadow-md'><Link to="/skills">Certificates</Link></li>
-                    <li className='hover:bg-[#F5F5F5] px-3 py-1 rounded-md hover:shadow-md'><Link to="/contact">Contact us</Link></li>
+            <div className='md:flex hidden w-full p-5 shadow-md shadow-white ' style={{ borderRadius: "0% 0% 100% 100%" }}>
+                <ul className='flex justify-center gap-3 w-full'>
+                    <li className='px-4 py-2 rounded-md hover:shadow-md huddel'><Link to="/">Home</Link></li>
+                    <li className='px-4 py-2 rounded-md hover:shadow-md huddel'><Link to="/about">About</Link></li>
+                    <li className='px-4 py-2 rounded-md hover:shadow-md huddel'><Link to="/projects">Projects</Link></li>
+                    <li className='px-4 py-2 rounded-md hover:shadow-md huddel'><Link to="/skills">Certificates</Link></li>
+                    <li className='px-4 py-2 rounded-md hover:shadow-md huddel'><Link to="/contact">Contact us</Link></li>
                 </ul>
             </div>
         </div>

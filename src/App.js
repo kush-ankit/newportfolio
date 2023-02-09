@@ -6,7 +6,7 @@ const App = () => {
   const [spinner, setSpinner] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setSpinner(false), 2000)
+    setTimeout(() => setSpinner(false), 1000)
   }, []);
 
   return spinner ? <div> <Load size={5}/> </div>:<div className="overflow-hidden"><Main/></div>;

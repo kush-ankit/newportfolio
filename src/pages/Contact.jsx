@@ -4,30 +4,30 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram } from 'react-icons/ai
 
 function Contact() {
   return (
-    <div name="Contact" className='w-full h-[90vh] md:h-full m-auto'>
+    <div name="Contact" className='w-full h-[90vh] md:h-[80vh] m-auto '>
       <div className='w-full h-full flex justify-center items-center'>
-        <div className='md:w-[70%] md:h-[70%] h-[80%] w-[90%] bg-gradient-to-r from-[#6D4C41] via-[#8F6251] to-[#6D4C41] rounded-lg shadow-2xl'>
+        <div className='md:w-[60%] md:h-[80%] h-[70%] w-[90%] bg-[#7fffd4] bg-opacity-40 rounded-lg shadow-2xl'>
           <div className='h-full w-full flex justify-center '>
-            <div className='h-full w-full p-10 pb-0 text-[#d8d8d8]'>
+            <div className='h-full w-full p-10 pb-0'>
               <h1 className='text-3xl font-bold '>Just say Hello !</h1>
               <p className='font-semibold'>Lets us know more about you !</p>
               <br />
               <div>
                 <form action="https://getform.io/f/cf06f0ea-5296-4e01-b7df-d1a47ea6edd4" method='POST' >
-                  <div className='flex flex-col gap-3'>
+                  <div className='flex flex-col gap-3 text-black'>
                     <div className='gap-3 flex flex-col md:flex-row'>
-                      <input type="text" name='Firstname' placeholder='Firstname' className='p-2 w-full rounded-2xl bg-transparent border-2 border-gray-500 text-white' />
-                      <input type="text" name='Lastname' placeholder='Lastname' className='p-2 w-full rounded-2xl bg-transparent border-2 border-gray-500 text-white' />
+                      <input type="text" name='Firstname' placeholder='Firstname' className='p-2 w-full rounded-lg ' />
+                      <input type="text" name='Lastname' placeholder='Lastname' className='p-2 w-full rounded-lg' />
                     </div>
                     <div className='flex gap-3 flex-col md:flex-row'>
-                      <input type="text" name='EMail' placeholder='Mail' className='p-2 w-full rounded-2xl bg-transparent border-2 border-gray-500 text-white' />
-                      <input type="text" name='Phone' placeholder='Phone' className='p-2 w-full rounded-2xl bg-transparent border-2 border-gray-500 text-white' />
+                      <input type="text" name='EMail' placeholder='Mail' className='p-2 w-full rounded-lg' />
+                      <input type="text" name='Phone' placeholder='Phone' className='p-2 w-full rounded-lg' />
                     </div>
                     <div className='w-full'>
-                      <textarea name="Description" className='p-4 rounded-2xl bg-transparent border-2 border-gray-500 text-white w-full ' placeholder='Say Somthing ...' ></textarea>
+                      <textarea name="Description" className='p-4 rounded-lg w-full ' placeholder='Say Somthing ...' ></textarea>
                     </div>
                     <div className='flex justify-center md:justify-start'>
-                      <button className='border-2 border-gray-500 px-5 py-2 bg-gradient-to-r rounded-lg'>Submit</button>
+                      <button className=' px-5 py-2 bg-white text-black rounded-lg'>Submit</button>
                     </div>
                     <br />
                     <br />

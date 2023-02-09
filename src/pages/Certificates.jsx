@@ -14,19 +14,19 @@ function Certificate() {
             id: '1',
             photo: 'https://i.ibb.co/546wkjs/Cloud-Core-Badge20220920-46-y4rcwq.jpg',
             naam: 'Cloud Core',
-            describe: 'hello Cloud core',
+            describe: 'Cloud core',
         },
         {
             id: '2',
             photo: 'https://i.ibb.co/1LxhpFm/certifi.jpg',
             naam: 'Build Your Own Chatbot',
-            describe: 'hello build your own chatbot',
+            describe: 'Build your own chatbot',
         },
         {
             id: '3',
             photo: 'https://i.ibb.co/3Yfk275/sscertifica.jpg',
             naam: 'Data Science',
-            describe: 'hello data science',
+            describe: 'Data science',
 
         }
     ]
