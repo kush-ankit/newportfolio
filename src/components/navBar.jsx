@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaProjectDiagram } from 'react-icons/fa';
 import { AiOutlineHome } from 'react-icons/ai';
@@ -11,9 +11,6 @@ import './Navbar.css';
 
 
 function Navbar() {
-
-    const [color,setColor] = useState();
-
 
 
     return (
@@ -38,8 +35,14 @@ function Navbar() {
                 </ul>
             </div>
             <div className='md:flex hidden w-full p-5 shadow-md shadow-white backdrop-brightness-150' style={{ borderRadius: "0% 0% 100% 100%" }}>
+                <div className='w-[10rem] flex justify-end items-center hoverjadu'>
+                    <button data-text="Awesome" class="button">
+                        <span class="actual-text">&nbsp;Ankit&nbsp;</span>
+                        <span class="hover-text" aria-hidden="true">&nbsp;Ankit&nbsp;</span>
+                    </button>
+                </div>
                 <ul className='flex justify-center gap-3 w-full'>
-                    <li style={{backgroundColor:`${color}`}} className='px-4 py-2 rounded-md hover:shadow-md huddel select' onClick={()=>{setColor("#7fffd4")}} ><Link to="/">Home</Link></li>
+                    <li className='px-4 py-2 rounded-md hover:shadow-md huddel select'><Link to="/">Home</Link></li>
                     <li className='px-4 py-2 rounded-md hover:shadow-md huddel'><Link to="/about">About</Link></li>
                     <li className='px-4 py-2 rounded-md hover:shadow-md huddel'><Link to="/projects">Projects</Link></li>
                     <li className='px-4 py-2 rounded-md hover:shadow-md huddel'><Link to="/skills">Certificates</Link></li>

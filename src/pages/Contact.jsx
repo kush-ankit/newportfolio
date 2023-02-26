@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div name="Contact" className='w-full h-[90vh] md:h-[80vh] m-auto '>
       <div className='w-full h-full flex justify-center items-center'>
-        <div className='md:w-[60%] md:h-[80%] h-[70%] w-[90%] bg-[#7fffd4] bg-opacity-40 rounded-lg shadow-2xl'>
+        <div className='md:w-[60%] md:h-[80%] h-[70%] w-[90%] bg-[#7fffd4] rounded-lg shadow-2xl'>
           <div className='h-full w-full flex justify-center '>
             <div className='h-full w-full p-10 pb-0'>
               <h1 className='text-3xl font-bold '>Just say Hello !</h1>
@@ -36,7 +36,7 @@ function Contact() {
               </div>
             </div>
             <div className='h-full w-full p-16 hidden md:flex'>
-              <div className='text-[#d8d8d8] h-full w-full'>
+              <div className=' h-full w-full'>
                 <h1 className='text-3xl font-bold'>Contact <br /> Information</h1>
                 <br />
                 <div>
