@@ -1,9 +1,9 @@
 import React from 'react'
 import 'primeicons/primeicons.css';
+import '../style/Home.css'
 
 
 function Home() {
-
     return (
         <div name="Home" className='h-full w-full p-4 overflow-hidden' style={{boxShadow: ""}}>
             <div className='h-full rounded-lg p-5'>
@@ -14,10 +14,10 @@ function Home() {
                 </div>
                 <div className='max-w-screen-lg mx-auto flex flex-col  items-center h-full md:flex-row'>
                     <div id='load' className='w-full my-2 delay-500'>
-                        <h2 className='text-xl sm:text-2xl font-mono font-semibold'>Hola guys, I am<div className='text-4xl sm:text-7xl text-[#7fffd4] font-bold font-serif' style={{ textShadow: "3px 3px 50px #ccc" }}>Ankit <br /> Kushwaha</div> <div className='italic text-lg'>"Only you can understand your self"</div> </h2>
+                        <h2 className='text-xl sm:text-2xl font-mono font-semibold'>Hola guys, I am<div className='text-4xl sm:text-7xl text-white font-bold font-serif' >Ankit <br /> Kushwaha</div> <div className='italic text-lg'>"Believe in Timing not Time"</div> </h2>
                     </div>
                     <div className=' h-fit flex flex-col justify-center'>
-                        <img src='https://i.ibb.co/Hpzgz1z/myimg.jpg' alt="img" className=' mx-auto ' style={{ borderRadius: "60% 30%/10% 20%", boxShadow: "40px 30px 120px #7fffd4" }} />
+                        <img src="https://i.ibb.co/nc0gPwp/167212281343-removebg.png" alt="img" className='mx-auto w-[500px] outline-double outline-offset-4 outline-4 shadow-lg photo bg-[#ABC4AA] rounded-xl'  />
                     </div>
                 </div>
             </div>

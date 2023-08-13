@@ -1,15 +1,15 @@
+
+
 .hex {
     border-radius: 30%;
     padding: 10px;
-    color: azure;
     transition: background-color 0.5s;
 }
 .hex:hover {
-    background-color: #7fffd4;
+    background-color: #ABC4AA;
 }
 
 .huddel {
-    color: azure;
     transition: background-color 0.5s;
     display: flex;
     align-items: center;
@@ -17,7 +17,8 @@
 }
 
 .huddel:hover {
-    background-color: #7fffd4;
+    background-color: #ABC4AA;
+    color: black;
 }
 
 
@@ -34,7 +35,7 @@
   .button {
     --border-right: 6px;
     --text-stroke-color: rgba(255,255,255,0.6);
-    --animation-color: #37FF8B;
+    --animation-color: #ffffff;
     --fs-size: 2em;
     letter-spacing: 3px;
     text-decoration: none;
